@@ -62,6 +62,25 @@
 	padding:5px;
 }
 
+.menu-link:active {
+	color: white;
+	text-decoration:none;
+	padding:5px;
+}
+
+.menu-link:link {color: white;
+	text-decoration:none;
+	padding:5px;}
+.menu-link:visited {color: white;
+	text-decoration:none;
+	padding:5px;}
+.menu-link:hover {color: white;
+	text-decoration:none;
+	padding:5px;}
+.menu-link:focus {color: white;
+	text-decoration:none;
+	padding:5px;}
+
 .menu-link:hover {
 	color: #D00000;
 	text-decoration:none;
@@ -72,12 +91,12 @@
 	/*padding: 2px 6px 2px 2px;*/
 	padding-left: 8px;
 	padding-right: 4px;
-	font-family: "Caviar Dreams", Arial;
+	font-family: Quicksand, Arial;
 	font-size: 20px;
 }
 
 .menu-title {
-	font-family: "Caviar Dreams", Arial;
+	font-family: Quicksand, Arial;
 	font-size: 32px;
 }
 

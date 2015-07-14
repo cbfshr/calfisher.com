@@ -1,22 +1,19 @@
-﻿/*@font-face { 
-	font-family: Quicksand; 
-	src: url('Fonts/quicksand/Quicksand-Regular.otf');
-}*/		/* Orig */
-
-html {
+﻿html {
 	height: 100%;
 }
 body {
+	font-family: Quicksand;
+
 	height: 100%;
 	margin: 0;
     padding: 0;
-	/*background-color: #F0F0F0;*/
-	background: url("Images/valencia-bridge.jpg");
+	background-color: #FBFBFB;
 	background-repeat: no-repeat;
     background-position: left top;
 	background-attachment: fixed;
 	background-size: cover;
 }
+
 #ngview {
 	height: 100%;
 }
@@ -54,7 +51,9 @@ body {
 #cf {
 	min-height: 100%;
 	padding: 20px 0px;
-	background-color: rgba(255, 255, 255, 0.95);
+	background-color: white;
+	border-left: solid lightgrey 2px;
+	border-right: solid lightgrey 2px;
 }
 #about {
 	background-color: white;
@@ -71,7 +70,7 @@ body {
 
 	border: 1px black dashed;
 
-	font-family: "Caviar Dreams", Arial;
+	font-family: Quicksand, Arial;
 	font-size: 48px;
 	text-align: center;
 }
@@ -84,11 +83,11 @@ body {
 }
 
 .right-tilt {
-	-webkit-transform: rotate(3deg);
+	/*-webkit-transform: rotate(3deg);*/
 }
 
 .left-tilt {
-	-webkit-transform: rotate(-3deg);
+	/* -webkit-transform: rotate(-3deg); */
 }
 
 .appear-left-title {
@@ -128,10 +127,10 @@ body {
 
 @media screen and (max-width: 979px) {
 	.right-tilt {
-		-webkit-transform: rotate(2deg);
+		/* -webkit-transform: rotate(2deg); */
 	}
 	.left-tilt {
-		-webkit-transform: rotate(-2deg);
+		/* -webkit-transform: rotate(-2deg); */
 	}
 	.appear-left-title {
 		display: none !IMPORTANT;

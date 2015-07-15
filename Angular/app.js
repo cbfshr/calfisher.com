@@ -16,26 +16,27 @@ angular.module("app", [
 
 		$routeProvider.when('/About', {
 			templateUrl: './Angular/Pages/About/About.html'
-			//controller: 'About.Controller'
 		});
 
 		$routeProvider.when('/Projects', {
 			templateUrl: './Angular/Pages/Projects/Projects.html'
-			//controller: 'Projects.Controller'
 		});
 
-		$routeProvider.when('/Projects/aptlyfe', {
-			templateUrl: './Angular/Pages/Projects/aptlyfe.html'
-			//controller: 'Projects.Controller'
+		$routeProvider.when('/Projects/DrawNear', {
+			templateUrl: './Angular/Pages/Projects/DrawNear.html'
 		});
 		$routeProvider.when('/Projects/CprE288', {
 			templateUrl: './Angular/Pages/Projects/cpre288.html'
-			//controller: 'Projects.Controller'
+		});
+		$routeProvider.when('/Projects/aptlyfe', {
+			templateUrl: './Angular/Pages/Projects/aptlyfe.html'
+		});
+		$routeProvider.when('/Projects/2048inC', {
+			templateUrl: './Angular/Pages/Projects/2048inC.html'
 		});
 		
 		$routeProvider.when('/Contact', {
 			templateUrl: './Angular/Pages/Contact/Contact.html'
-			//controller: 'Contact.Controller'
 		});
 
 		$routeProvider.otherwise({

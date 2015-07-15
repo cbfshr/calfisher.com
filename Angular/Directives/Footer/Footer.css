@@ -1,8 +1,4 @@
-﻿@font-face { font-family: "Labtop Secundo"; src: url('../../../Content/Fonts/LabtopSecundo/LABTSEC_.ttf'); }
-@font-face { font-family: "Caviar Dreams"; src: url('../../../Content/Fonts/Caviar-Dreams/CaviarDreams.ttf'); }
-@font-face { font-family: "Caviar Dreams Bold"; src: url('../../../Content/Fonts/Caviar-Dreams/CaviarDreams_Bold.ttf'); }
-
-#foot {
+﻿#foot {
 	position: fixed;
 	bottom: 0;
 	width: 100%;
@@ -53,20 +49,8 @@
 	box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
-.foot-link {
-	color: white;
-	text-decoration:none;
-	padding:5px;
-}
-
-.foot-link:hover {
-	color: #D00000;
-	text-decoration:none;
-	padding:5px;
-}
-
-.foot-text {
+#footer-text {
 	padding: 2px 6px 2px 2px;
-	font-family: "Caviar Dreams", Arial;
-	font-size: 16px;
+	font-family: Arial;
+	font-size: 12px;
 }

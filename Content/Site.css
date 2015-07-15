@@ -1,6 +1,7 @@
 ﻿html {
 	height: 100%;
 }
+
 body {
 	font-family: Quicksand;
 
@@ -50,20 +51,23 @@ body {
 
 #cf {
 	min-height: 100%;
-	padding: 20px 0px;
+	padding: 20px 40px;
 	background-color: white;
 	border-left: solid lightgrey 2px;
 	border-right: solid lightgrey 2px;
 }
-#about {
+
+/* #about {
 	background-color: white;
 }
+
 #projects {
 	background-color: white;
 }
+
 #contact {
 	background-color: white;
-}
+} */
 
 .body-title {
 	padding: 36px 12px;
@@ -79,15 +83,7 @@ body {
 	padding: 32px 12px;
 	border: 1px black dashed;
 	
-	font-size: 18px;
-}
-
-.right-tilt {
-	/*-webkit-transform: rotate(3deg);*/
-}
-
-.left-tilt {
-	/* -webkit-transform: rotate(-3deg); */
+	font-size: 22px;
 }
 
 .appear-left-title {
@@ -109,14 +105,7 @@ body {
 	}
 }
 
-
 @media screen and (max-width: 1199px) {
-	.right-tilt {
-		-webkit-transform: rotate(0deg);
-	}
-	.left-tilt {
-		-webkit-transform: rotate(0deg);
-	}
 	.appear-left-title {
 		display: inherit !IMPORTANT;
 	}
@@ -126,12 +115,6 @@ body {
 }
 
 @media screen and (max-width: 979px) {
-	.right-tilt {
-		/* -webkit-transform: rotate(2deg); */
-	}
-	.left-tilt {
-		/* -webkit-transform: rotate(-2deg); */
-	}
 	.appear-left-title {
 		display: none !IMPORTANT;
 	}

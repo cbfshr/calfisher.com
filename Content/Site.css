@@ -21,10 +21,10 @@ body {
 
 /*---Home---*/
 #barcelona {
-	width: 80%;
+	width: 70%;
 	height: 100%;
 	margin: 0px auto;
-	padding-top: 48px;
+	padding-top: 42px;
 }
 
 .container {
@@ -34,7 +34,7 @@ body {
 }
 
 .row-fluid {
-	padding: 24px 32px;
+	padding: 16px 32px;
 	
 	/*This CSS code is to INCLUDE borders and padding in the Width of the Element*/
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
@@ -51,39 +51,28 @@ body {
 
 #cf {
 	min-height: 100%;
-	padding: 20px 40px;
+	padding: 20px 60px;
 	background-color: white;
 	border-left: solid lightgrey 2px;
 	border-right: solid lightgrey 2px;
 }
 
-/* #about {
-	background-color: white;
-}
-
-#projects {
-	background-color: white;
-}
-
-#contact {
-	background-color: white;
-} */
-
 .body-title {
-	padding: 36px 12px;
-
-	border: 1px black dashed;
-
+	padding-bottom: 0;
 	font-family: Quicksand, Arial;
-	font-size: 48px;
-	text-align: center;
+	font-size: 42px;
 }
 
-.body-text {
-	padding: 32px 12px;
-	border: 1px black dashed;
-	
-	font-size: 22px;
+.job-title{
+	padding-bottom: 8px;
+	font-family: QuicksandLight;
+	font-size: 32px;
+
+}
+
+.body-section {
+	padding-top: 0;
+	font-size: 18px;
 }
 
 .appear-left-title {

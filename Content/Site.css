@@ -51,7 +51,7 @@ body {
 
 #cf {
 	min-height: 100%;
-	padding: 20px 60px;
+	padding: 10px 60px;
 	background-color: white;
 	border-left: solid lightgrey 2px;
 	border-right: solid lightgrey 2px;
@@ -82,7 +82,21 @@ body {
 	margin-left: 0 !IMPORTANT;
 }
 
-@media screen and (max-width: 857px) {
+.center{
+	text-align: center;
+}
+
+.short{
+	padding: 0;
+	margin: 5px 5px;
+}
+
+.project-date{
+	padding: 0;
+	margin-bottom: 10px;
+}
+
+@media screen and (max-width: 920px) {
 	#menu-left {
 		width: 50% !IMPORTANT;
 	}
@@ -91,6 +105,13 @@ body {
 	}
 	.menu-text {
 		display: none;
+	}
+	
+	#cf{
+		padding: 0px 10px 30px 10px;
+	}
+	.row-fluid{
+		padding: 5px 10px;
 	}
 }
 
@@ -124,12 +145,6 @@ body {
 	}
 	#barcelona {
 		width: 96%;
-	}
-	.right-tilt {
-		-webkit-transform: rotate(0deg);
-	}
-	.left-tilt {
-		-webkit-transform: rotate(0deg);
 	}
 	#foot {
 		padding: 0px 20px !IMPORTANT;

@@ -63,11 +63,16 @@ body {
 	font-size: 42px;
 }
 
+.company-title {
+	padding-bottom: 0;
+	font-family: Quicksand, Arial;
+	font-size: 32px;
+}
+
 .job-title{
 	padding-bottom: 8px;
 	font-family: QuicksandLight;
-	font-size: 32px;
-
+	font-size: 24px;
 }
 
 .body-section {

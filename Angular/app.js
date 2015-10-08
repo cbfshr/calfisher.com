@@ -10,8 +10,7 @@ angular.module("app", [
 	])
 	.config(['$routeProvider', function ($routeProvider) {
 		$routeProvider.when('/', {
-			templateUrl: './Angular/Pages/Home/Home.html',
-			controller: 'Home.Controller'
+			templateUrl: './Angular/Pages/Home/Home.html'
 		});
 
 		$routeProvider.when('/About', {
@@ -19,11 +18,15 @@ angular.module("app", [
 		});
 
 		$routeProvider.when('/Projects', {
-			templateUrl: './Angular/Pages/Projects/Projects.html'
+			templateUrl: './Angular/Pages/Projects/Projects.html',
+			controller: 'Projects.Controller'
 		});
 
 		$routeProvider.when('/Projects/DrawNear', {
 			templateUrl: './Angular/Pages/Projects/DrawNear.html'
+		});
+		$routeProvider.when('/Projects/Loofiti', {
+			templateUrl: './Angular/Pages/Projects/Loofiti.html'
 		});
 		$routeProvider.when('/Projects/CprE288', {
 			templateUrl: './Angular/Pages/Projects/cpre288.html'

@@ -13,7 +13,7 @@
 	background: linear-gradient(#505050, #303030);			/* Standard syntax */
 }
 
-#menu-left {
+#header-left {
 	width: 35%;
 	float: left;
 	
@@ -25,30 +25,13 @@
 	box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
-#menu-right {
+#header-right {
 	width: 65%;
 	float: left;
 	
 	text-align:right;
 	
 	padding: 10px 11% 10px 20px; /*top right bottom left*/
-	
-	/*This CSS code is to INCLUDE borders and padding in the Width of the Element*/
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
-	box-sizing: border-box;         /* Opera/IE 8+ */
-}
-
-#menu-right-list {
-	width: 50%;
-	float: left;
-	
-	text-align: right;
-	
-	padding: 10px 20px 10px 20px;
-	
-	/*visibility: hidden;*/
-	display:none;
 	
 	/*This CSS code is to INCLUDE borders and padding in the Width of the Element*/
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */

@@ -4,15 +4,13 @@
 		return {
 			restrict: 'A',
 			templateUrl: './Angular/Directives/Header/Header.html',
-			replace: true,
-			controller: 'HeaderController'
+			replace: true
 		};
 	})
 	.directive('footer', function () {
 		return {
 			restrict: 'A',
 			templateUrl: './Angular/Directives/Footer/Footer.html',
-			replace: true,
-			controller: 'FooterController'
+			replace: true
 		};
 	});

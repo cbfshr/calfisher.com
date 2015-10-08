@@ -15,6 +15,10 @@ body {
 	background-size: cover;
 }
 
+hr {
+	margin: 0;
+}
+
 #ngview {
 	height: 100%;
 }
@@ -101,11 +105,26 @@ body {
 	margin-bottom: 10px;
 }
 
+.table-cell-proficient {
+	background-color: lightgreen;
+	text-align: center;
+}
+
+.table-cell-intermediate {
+	background-color: lightblue;
+	text-align: center;
+}
+
+.table-cell-fundamental {
+	background-color: lightyellow;
+	text-align: center;
+}
+
 @media screen and (max-width: 920px) {
-	#menu-left {
+	#header-left {
 		width: 50% !IMPORTANT;
 	}
-	#menu-right {
+	#header-right {
 		width: 50% !IMPORTANT;
 	}
 	.menu-text {
@@ -142,10 +161,10 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-	#menu-left {
+	#header-left {
 		padding-left: 20px !IMPORTANT;
 	}
-	#menu-right {
+	#header-right {
 		padding-right: 20px !IMPORTANT;
 	}
 	#barcelona {
@@ -163,15 +182,22 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-	#menu-left {
-		width: 70% !IMPORTANT;
+	.menu-title {
+		font-size: 24px !IMPORTANT;
 	}
-	#menu-right {
-		display: none;
+	#header-left {
+		width: 50% !IMPORTANT;
+		padding: 5px 20px 0px 5px !IMPORTANT;
 	}
-	#menu-right-list {
+	#header-right {
+		width: 50% !IMPORTANT;
+		padding: 10px 10px 10px 0px !IMPORTANT;
+	}
+		/*display: none;
+	}
+	#header-right-sm {
 		/*visibility: visible !important;*/
 		width: 30% !IMPORTANT;
 		display: inherit !IMPORTANT;
-	}
+	}*/
 }

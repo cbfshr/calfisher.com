@@ -1,0 +1,86 @@
+﻿#menu {
+	position: fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	z-index: 500;
+	
+	/*background-color: #404040;*/
+	/*#606060*/
+	background: -webkit-linear-gradient(#505050, #303030); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#505050, #303030);		/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#505050, #303030);	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(#505050, #303030);			/* Standard syntax */
+}
+
+#menu-left {
+	width: 35%;
+	float: left;
+	
+	padding: 3px 20px 0px 11%; /*top right bottom left*/
+	
+	/*This CSS code is to INCLUDE borders and padding in the Width of the Element*/
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+#menu-right {
+	width: 65%;
+	float: left;
+	
+	text-align:right;
+	
+	padding: 10px 11% 10px 20px; /*top right bottom left*/
+	
+	/*This CSS code is to INCLUDE borders and padding in the Width of the Element*/
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+#menu-right-list {
+	width: 50%;
+	float: left;
+	
+	text-align: right;
+	
+	padding: 10px 20px 10px 20px;
+	
+	/*visibility: hidden;*/
+	display:none;
+	
+	/*This CSS code is to INCLUDE borders and padding in the Width of the Element*/
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.menu-link {
+	color: white;
+	text-decoration:none;
+	padding:5px;
+}
+
+.menu-link:hover {
+	color: #D00000;
+	text-decoration:none;
+	padding:5px;
+}
+
+.menu-text {
+	/*padding: 2px 6px 2px 2px;*/
+	padding-left: 8px;
+	padding-right: 4px;
+	font-family: "Caviar Dreams", Arial;
+	font-size: 20px;
+}
+
+.menu-title {
+	font-family: "Caviar Dreams", Arial;
+	font-size: 32px;
+}
+
+.menu-icon {
+	font-size:24px;
+}

@@ -37,6 +37,12 @@ angular.module("app", [
 		$routeProvider.when('/Projects/2048inC', {
 			templateUrl: './Angular/Pages/Projects/2048inC.html'
 		});
+		$routeProvider.when('/Projects/calfisher.com', {
+			templateUrl: './Angular/Pages/Projects/calfisher.html'
+		});
+		$routeProvider.when('/Projects/MicroCART', {
+			templateUrl: './Angular/Pages/Projects/MicroCART.html'
+		});
 		
 		$routeProvider.when('/Contact', {
 			templateUrl: './Angular/Pages/Contact/Contact.html'

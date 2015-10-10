@@ -1,0 +1,182 @@
+﻿/*@font-face { 
+	font-family: Quicksand; 
+	src: url('Fonts/quicksand/Quicksand-Regular.otf');
+}*/		/* Orig */
+
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	margin: 0;
+    padding: 0;
+	/*background-color: #F0F0F0;*/
+	background: url("Images/valencia-bridge.jpg");
+	background-repeat: no-repeat;
+    background-position: left top;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/*---Home---*/
+#barcelona {
+	width: 80%;
+	/*height: 100%;*/
+	margin: 0px auto;
+	padding-top: 48px;
+}
+
+.container {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 0;
+}
+
+.row-fluid {
+	padding: 24px 32px;
+	
+	/*This CSS code is to INCLUDE borders and padding in the Width of the Element*/
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.row-condensed {
+	height: 100px;
+}
+.row-expanded {
+	height: 100%;
+}
+
+#cf {
+	padding: 20px 0px;
+	background-color: rgba(255, 255, 255, 0.95);
+}
+#about {
+	background-color: white;
+}
+#projects {
+	background-color: white;
+}
+#contact {
+	background-color: white;
+}
+
+.body-title {
+	padding: 36px 12px;
+
+	border: 1px black dashed;
+
+	font-family: "Caviar Dreams", Arial;
+	font-size: 48px;
+	text-align: center;
+}
+
+.body-text {
+	padding: 32px 12px;
+	border: 1px black dashed;
+	
+	font-size: 18px;
+}
+
+.right-tilt {
+	-webkit-transform: rotate(3deg);
+}
+
+.left-tilt {
+	-webkit-transform: rotate(-3deg);
+}
+
+.appear-left-title {
+	display: none !IMPORTANT;
+}
+.appear-right-text {
+	margin-left: 0 !IMPORTANT;
+}
+
+@media screen and (max-width: 857px) {
+	#menu-left {
+		width: 50% !IMPORTANT;
+	}
+	#menu-right {
+		width: 50% !IMPORTANT;
+	}
+	.menu-text {
+		display: none;
+	}
+}
+
+
+@media screen and (max-width: 1199px) {
+	.right-tilt {
+		-webkit-transform: rotate(0deg);
+	}
+	.left-tilt {
+		-webkit-transform: rotate(0deg);
+	}
+	.appear-left-title {
+		display: inherit !IMPORTANT;
+	}
+	.appear-right-title {
+		display: none !IMPORTANT;
+	}
+}
+
+@media screen and (max-width: 979px) {
+	.right-tilt {
+		-webkit-transform: rotate(2deg);
+	}
+	.left-tilt {
+		-webkit-transform: rotate(-2deg);
+	}
+	.appear-left-title {
+		display: none !IMPORTANT;
+	}
+	.appear-right-title {
+		display: inherit !IMPORTANT;
+	}
+	.appear-right-text {
+		margin-left: 0 !IMPORTANT;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	#menu-left {
+		padding-left: 20px !IMPORTANT;
+	}
+	#menu-right {
+		padding-right: 20px !IMPORTANT;
+	}
+	#barcelona {
+		width: 96%;
+	}
+	.right-tilt {
+		-webkit-transform: rotate(0deg);
+	}
+	.left-tilt {
+		-webkit-transform: rotate(0deg);
+	}
+	#foot {
+		padding: 0px 20px !IMPORTANT;
+	}
+	.appear-left-title {
+		display: inherit !IMPORTANT;
+	}
+	.appear-right-title {
+		display: none !IMPORTANT;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	#menu-left {
+		width: 70% !IMPORTANT;
+	}
+	#menu-right {
+		display: none;
+	}
+	#menu-right-list {
+		/*visibility: visible !important;*/
+		width: 30% !IMPORTANT;
+		display: inherit !IMPORTANT;
+	}
+}

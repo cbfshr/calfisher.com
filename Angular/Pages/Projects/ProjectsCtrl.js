@@ -10,7 +10,6 @@
 			this.$anchorScroll = $anchorScroll;
 			var _this = this;
 
-			
 			$scope.showMenu = 0;
 		}
 
@@ -22,7 +21,7 @@
 			'$filter',
 			'$anchorScroll'
 		];
-		
+
 		return Controller;
 	})();
 	Projects.Controller = Controller;

@@ -25,9 +25,6 @@ angular.module("app", [
 		$routeProvider.when('/Projects/DrawNear', {
 			templateUrl: './Angular/Pages/Projects/DrawNear.html'
 		});
-		$routeProvider.when('/Projects/Loofiti', {
-			templateUrl: './Angular/Pages/Projects/Loofiti.html'
-		});
 		$routeProvider.when('/Projects/CprE288', {
 			templateUrl: './Angular/Pages/Projects/cpre288.html'
 		});
@@ -40,10 +37,13 @@ angular.module("app", [
 		$routeProvider.when('/Projects/calfisher.com', {
 			templateUrl: './Angular/Pages/Projects/calfisher.html'
 		});
+		$routeProvider.when('/Projects/Quadroid', {
+			templateUrl: './Angular/Pages/Projects/Quadroid.html'
+		});
 		$routeProvider.when('/Projects/MicroCART', {
 			templateUrl: './Angular/Pages/Projects/MicroCART.html'
 		});
-		
+
 		$routeProvider.when('/Contact', {
 			templateUrl: './Angular/Pages/Contact/Contact.html'
 		});

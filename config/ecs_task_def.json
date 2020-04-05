@@ -1,18 +1,15 @@
 {
-  "name": "calfisher",
   "family": "calfisher",
+  "cpu": "256",
+  "memory": "512",
   "executionRoleArn": "arn:aws:iam::016211234852:role/ecsTaskExecutionRole",
+  "networkMode": "awsvpc",
   "requiresCompatibilities": [
     "FARGATE"
   ],
-  "networkMode": "awsvpc",
-  "cpu": "256",
-  "memory": "512",
   "containerDefinitions": [
     {
-      "name": "calfisher",
-      "cpu": 1,
-      "memory": 256,
+      "image": "016211234852.dkr.ecr.us-east-2.amazonaws.com/cbfshr:abb4345270e1c282d81903fd246c5231863eb174",
       "essential": true,
       "portMappings": [
         {

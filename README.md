@@ -17,11 +17,26 @@ Documenting initial setup for future reference.
 aws configure
 ```
 
-4. Create an ECS task definition, an ECS cluster, and an ECS service.
-* Task Defintion File: [config/ecs_task_def.json](config/ecs_task_def.json)
-
-5. Create an ECR repository to store images
+4. Create an ECR repository to store images
 ```
 aws ecr create-repository --repository-name cbfshr --region us-east-2
 ```
  
+5. Create an ECS task definition, an ECS cluster, and an ECS service.
+* This documentation was significantly more helpful than the information provided by Github Actions: https://aws.amazon.com/blogs/opensource/github-actions-aws-fargate/
+
+    1. Create the ECS task definition file and register with ECS (it requires image to be provided, which is counterintuitive since it doesn't exist until the first time we run):
+    * Task Defintion File: [config/ecs_task_def.json](config/ecs_task_def.json)
+    ```
+    aws ecs register-task-definition --region us-east-2 --cli-input-json file:///Users/cal/workspace/calfisher.com/config/ecs_task_def.json
+    ```
+
+    2. Create an ECS cluster:
+    ```
+    aws ecs create-cluster --region us-east-2 --cluster-name cbfshr
+    ```
+
+    3. Create a Fargate service:
+    ```
+    aws ecs create-service --region us-east-2 --cluster cbfshr --service-name calfisher --task-definition calfisher:1 --desired-count 2 --launch-type "FARGATE" --network-configuration "awsvpcConfiguration={subnets=[subnet-31034e58],securityGroups=[sg-fbc7d492]}"
+    ```

@@ -9,6 +9,7 @@
   ],
   "containerDefinitions": [
     {
+      "name": "calfisher",
       "image": "016211234852.dkr.ecr.us-east-2.amazonaws.com/cbfshr:abb4345270e1c282d81903fd246c5231863eb174",
       "essential": true,
       "portMappings": [

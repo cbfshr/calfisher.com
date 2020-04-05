@@ -1,5 +1,6 @@
 {
   "family": "first-run-task-definition",
+  "executionRoleArn": "arn:aws:iam::016211234852:role/ecsTaskExecutionRole",
   "requiresCompatibilities": [
     "FARGATE"
   ],

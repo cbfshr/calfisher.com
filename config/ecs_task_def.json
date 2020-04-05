@@ -1,5 +1,8 @@
 {
   "family": "first-run-task-definition",
+  "requiresCompatibilities": [
+    "FARGATE"
+  ],
   "containerDefinitions": [
     {
       "name": "calfisher",

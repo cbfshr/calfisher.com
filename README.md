@@ -22,6 +22,6 @@ aws configure
 
 5. Create an ECR repository to store images
 ```
-aws ecr create-repository --repository-name cbfshr --region us-east-1
+aws ecr create-repository --repository-name cbfshr --region us-east-2
 ```
  

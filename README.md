@@ -38,5 +38,12 @@ aws ecr create-repository --repository-name cbfshr --region us-east-2
 
     3. Create a Fargate service:
     ```
-    aws ecs create-service --region us-east-2 --cluster cbfshr --service-name calfisher --task-definition calfisher:1 --desired-count 2 --launch-type "FARGATE" --network-configuration "awsvpcConfiguration={subnets=[subnet-31034e58],securityGroups=[sg-fbc7d492]}"
+    aws ecs create-service --region us-east-2 --cluster cbfshr --service-name calfisher --task-definition calfisher:1 --desired-count 2 --launch-type "FARGATE" --network-configuration "awsvpcConfiguration={subnets=[subnet-31034e58],securityGroups=[sg-07852e1c2d28cafcc]}"
     ```
+
+### Pulling Docker Image from ECR
+https://docs.aws.amazon.com/AmazonECR/latest/userguide/docker-pull-ecr-image.html
+
+```
+aws ecr get-login-password --region us-east-2 | docker login --username AWS --password-stdin <aws_account_id>.dkr.ecr.us-east-1.amazonaws.com
+```

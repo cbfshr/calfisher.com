@@ -1,5 +1,5 @@
 {
-  "family": "calfisher",
+  "family": "calfishernginx",
   "cpu": "256",
   "memory": "512",
   "executionRoleArn": "arn:aws:iam::016211234852:role/ecsTaskExecutionRole",
@@ -9,8 +9,8 @@
   ],
   "containerDefinitions": [
     {
-      "name": "calfisher",
-      "image": "016211234852.dkr.ecr.us-east-2.amazonaws.com/cbfshr:abb4345270e1c282d81903fd246c5231863eb174",
+      "name": "calfishernginx",
+      "image": "016211234852.dkr.ecr.us-east-2.amazonaws.com/my-first-repo:latest",
       "essential": true,
       "portMappings": [
         {
